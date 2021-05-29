@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>link</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="icon" href="images/12.png" type="icon/png">
+  <link rel="stylesheet" href="css/app.css">
+
+<link rel="stylesheet" href="css/dropdown.css">
+</head>
+<body style="font-family:Baskerville Old Face;">
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href=""><img src="images/15.png" id="a1"></a
+        <div>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Logout</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+      </div>
+      </section>
+      <div class="row">
+        <div class="col-3" style="margin-top:30px">
+          <ul class="bullet">
+           <li class="ad">
+             <a href="#">Link device</a>
+          </li>
+          <li class="ad">
+           <a href="#">Track Service-man</a>
+          </li>
+          <li class="ad">
+           <a href="#">Edit</a>
+          </li>
+          </ul>
+        </div>
+        <div class="col-9">
+            <h1 style="font-family:Baskerville Old Face; margin-top:30px; font-size:50px">Link Device:</h1>
+            <div class="col-4">
+              <div style="height:30px;">
+              </div>
+              <h3>Type:</h3>
+              <div class="col-6">
+                <select id="Type" style="width:200px">
+                  <option value="select">Select an option</option>
+                  <option value="Salesman">Salesman</option>
+                  <option value="Delivery">Delivery</option>
+                </select>
+              </div>
+            </div>
+                <div class="row">
+                <div class="col-6">
+                  <h4>Name</h4>
+                  <select id="cars" style="width:500px">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+                <div class="col-6">
+                  <h4>Beat</h4>
+                  <select id="cars" style="width:500px">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+              </div>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+                <script>
+                  $('.dropdown-menu a').click(function(){
+                  $('#selected').text($(this).text());
+                  });
+                </script>
+      </body>
+    </html>
